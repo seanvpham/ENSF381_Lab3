@@ -66,9 +66,16 @@ Description : A simple HTML file for form tag.
         <fieldset>
             <legend>Other Elements</legend>
             <!-- Add a label and input field for 'Birthday' here, use the appropriate type for date selection -->
+            <label for="birthday">Birthday:</label><br>
+            <input type="date" id="birthday" name="birthday"><br>
+
             <label for="favcolor">Favorite Color:</label><br>
             <input type="color" id="favcolor" name="favcolor"><br>
+
             <!-- Add a label and number input field for 'Quantity', set min to 1 and max to 5 -->
+            <label for="quantity">Quantity (between 1 and 5):</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+
             <label for="range">Range (between 1 and 10):</label><br>
             <input type="range" id="range" name="range" min="1" max="10"><br>
 			<!-- Add an attribute to the range input to set its initial value to 2-->
