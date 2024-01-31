@@ -87,10 +87,15 @@ Description : A simple HTML file for form tag.
 			<textarea id="feedback" name="feedback" rows="20" cols="80"></textarea><br>
             <!-- Add some attributes to the feedback textarea tag to make it bigger and suitable for editing texts-->
             <!-- Add a file input field -->
-            <label for="file">File:</label><br>
             <input type="file" id="file" name="file"><br>
+
             <!-- Add a checkbox for 'Subscribe to newsletter' -->
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Subscribe to newsletter</label><br>
+
             <!-- Add a hidden field for 'customerId', set its value to '12345' -->
+            <input type="hidden" id="customerId" name="customerId" value="12345">
+            
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
         </fieldset>
