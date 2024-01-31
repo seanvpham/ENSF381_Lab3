@@ -77,13 +77,18 @@ Description : A simple HTML file for form tag.
             <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
 
             <label for="range">Range (between 1 and 10):</label><br>
-            <input type="range" id="range" name="range" min="1" max="10"><br>
+            <input type="range" id="range" name="range" min="1" max="10" value="2"><br>
 			<!-- Add an attribute to the range input to set its initial value to 2-->
             <!-- Add a label and input field for 'Homepage', use the correct type for URLs -->
+            <label for="homepage">Homepage:</label><br>
+            <input type="url" id="homepage" name="homepage" ><br>
+
             <label for="feedback">Feedback:</label><br>
-			<textarea id="feedback" name="feedback"></textarea><br>
+			<textarea id="feedback" name="feedback" rows="20" cols="80"></textarea><br>
             <!-- Add some attributes to the feedback textarea tag to make it bigger and suitable for editing texts-->
             <!-- Add a file input field -->
+            <label for="file">File:</label><br>
+            <input type="file" id="file" name="file"><br>
             <!-- Add a checkbox for 'Subscribe to newsletter' -->
             <!-- Add a hidden field for 'customerId', set its value to '12345' -->
             <input type="submit" value="Submit">
