@@ -76,10 +76,13 @@ Description : Learning CSS.
         .image-demo {
             /* Modify the .image-demo class to adjust the image's width to 50% of the screen. */
             border: 2px solid blue;
+            width: 50%;
         }
 
         .hover-demo:hover {
             /*Create a hover effect for .hover-demo that changes its color to blue and cursor to grabbing.*/
+            color: blue;
+            cursor: grabbing;
         }
     </style>
 </head>
@@ -105,7 +108,7 @@ Description : Learning CSS.
 
     <h2>CSS Image Styling with Inline CSS</h2>
     <!-- Add a dotted green border of 3px inline. Which style will win the competition? -->
-    <img class="image-demo" style="" src="images/example.svg" alt="Demo Image">
+    <img class="image-demo" style="border-width: 3px; border-color: green; border-style: dotted;" src="images/example.svg" alt="Demo Image">
 
     <h2>CSS Hover Effects</h2>
     <div class="hover-demo"><span>Hover over me! My color will change to blue!</span></div>
